@@ -9,13 +9,16 @@
     <form>
         <h1>Formulário de cadastro</h1>
         <br>
-            <label>Nome</label>
-            <input for="text" />
+           <!-- Correção no for -->
+        <label for="nome">Nome</label>
+            <input id="nome" type="text" />
             <br />
+            <!-- Correção no for -->
             <label for="email">E-mail</label>
             <input id="email" type="email" />
             <br />
-            <label>Senha</label>
+            <!-- Correção no for -->
+            <label for="senha">Senha</label>
             <input id="senha" type="password" />
             <br />
             <button type="submit">
